@@ -1,6 +1,6 @@
 # WebsiteCategorizationAPI
 
-Elixir client for [article-level IAB categorization](https://www.websitecategorizationapi.com). Give it a page URL and it returns the content categories of that page with confidence scores. Phoenix publishing sites, ad-tech services and analytics pipelines use those categories for contextual targeting, brand safety checks and topic reporting.
+Elixir client to [check website category](https://www.websitecategorizationapi.com/website-url-category-check.php) data for any page. Give it a page URL and it returns the content categories of that page with confidence scores. Phoenix publishing sites, ad-tech services and analytics pipelines use those categories for contextual targeting, brand safety checks and topic reporting.
 
 ## Installation
 
@@ -100,7 +100,7 @@ Photo galleries, video pages without transcripts and paywalled articles give the
 
 ## Adjacent data
 
-A topic taxonomy puts AI products under technology. To keep [AI product domains apart from general tech](https://www.aitoolsblocklist.com), check them against the AI register. Compliance teams collect [AI tool usage evidence for audits](https://www.shadowaitools.com) from network logs. For site-level labels at scale, [domain categories delivered as a dataset](https://www.urlcategorizationdatabase.com) cost less than per-page classification.
+A topic taxonomy puts AI products under technology. [AI content filtering for the enterprise](https://www.aitoolsblocklist.com/enterprise-ai-blocking.php) keeps them apart by checking against the AI register. Compliance teams in regulated industries, where [shadow AI is a major compliance headache](https://www.shadowaitools.com/for-compliance-officers.php), collect evidence from network logs. For site-level labels at scale, [IAB 3.0 categories as a dataset](https://www.urlcategorizationdatabase.com/taxonomy.php) cost less than per-page classification.
 
 Also available for [Go services](https://pkg.go.dev/github.com/explainableaixai/websitecategorizationapi-go), [Flutter apps](https://pub.dev/packages/websitecategorizationapi) and [PHP sites](https://packagist.org/packages/websitecategorization/websitecategorizationapi).
 
